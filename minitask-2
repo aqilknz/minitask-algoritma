@@ -1,0 +1,9 @@
+Menghitung luas dan keliling lingkaran
+1. mulai
+2. masukkan nilai r sebagai jari-jari
+3. tetapkan nilai phi yaitu 3,14 atu 22/7
+4. buatlah variabel dengan nama Luas dan keliling
+5. hitunglah Luas lingkaran dengan rumus, Luas = phi x r x r
+6. hitunglah keliling lingkaran dengan rumus, keliling = 2 x phi x r
+7. tampilkan hasil dari keliling dan luas lingkaran
+8. selesai
