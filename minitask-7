@@ -11,6 +11,6 @@ BEGIN
   ELSE
   THEN
     totalBayar <- pemakaianKwh * 5000
-  END IF
+  ENDIF
   OUTPUT("Jumlah yang dibayarkan sebesar = ",totalBayar)
 END
