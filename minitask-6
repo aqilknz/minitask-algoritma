@@ -5,7 +5,7 @@ BEGIN
   IF totalPembelanjaan < 500000
   THEN
     hasilAkhir <- totalPembelanjaan
-  ELSEIF totalPembelanjaan >= 500000 AND <=1000000
+  ELSEIF totalPembelanjaan >= 500000 AND totalPembelanjaan <=1000000
   THEN
     hasilAkhir <- totalPembelanjaan * 5%
   ELSE
