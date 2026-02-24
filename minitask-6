@@ -1,0 +1,17 @@
+FUNCTION hitungHasilDiskon
+  DECLARE totalPembelian, hasilAkhir : num
+BEGIN
+  INPUT(totalPembelanjaan)
+  IF totalPembelanjaan < 500000
+  THEN
+    hasilAkhir <- totalPembelanjaan
+    OUTPUT ("Hasil Akhir= ", hasilAkhir)
+  ELSE IF total pembelanjaan >= 500000 AND <=1000000
+  THEN
+    hasilAkhir <- totalPembelanjaan * 5%
+    OUTPUT ("Total Akhir= ",hasilAkhir)
+  ELSE
+    hasilAkhir <- totalPembelanjaan * 10%
+    OUTPUT ("Total Akhir= ",hasilAkhir)
+  END IF
+END
