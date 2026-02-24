@@ -5,7 +5,7 @@ BEGIN
   IF pemakaianKwh <= 100
   THEN
     totalBayar <- pemakaianKwh * 2000
-  ELSE IF pemakaianKwh > 100  AND <= 200
+  ELSEIF pemakaianKwh > 100  AND <= 200
   THEN
     totalBayar <- pemakaianKwh * 3000
   ELSE
