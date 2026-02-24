@@ -1,5 +1,5 @@
 FUNCTION PembayaranListrik
-  DECLARE  pemakaian_kwh, total_bayar: num
+  DECLARE  pemakaianKwh, total_bayar: num
 BEGIN
   INPUT(pemakaianKwh)
   IF pemakaianKwh <= 100
