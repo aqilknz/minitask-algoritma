@@ -1,6 +1,6 @@
 menentukan variabel x bilangan ganjil atau genap
 1. mulai
 2. masukan nilai x
-3. buatlah sebuah kodisi dimana jika iya x bisa dibagi 2 tanpa sisa bagi maka nilai x adalah genap
-4. jika tidak maka nilai x adalah ganjil
+3. buatlah sebuah kodisi dimana jika iya x bisa dibagi 2 tanpa sisa bagi maka nilai x adalah bilangan genap
+4. jika tidak maka nilai x adalah bilangan ganjil
 5. selesai
