@@ -1,0 +1,16 @@
+FUNCTION PembayaranListrik
+  DECLARE  pemakaian_kwh, total_bayar: num
+BEGIN
+  INPUT(pemakaianKwh)
+  IF pemakaianKwh <= 100
+  THEN
+    totalBayar <- pemakaianKwh * 2000
+  ELSE IF pemakaianKwh > 100  AND <= 200
+  THEN
+    totalBayar <- pemakaianKwh * 3000
+  ELSE
+  THEN
+    totalBayar <- pemakaianKwh * 5000
+  END IF
+  OUTPUT("Jumlah yang dibayarkan sebesar = ",totalBayar)
+END
