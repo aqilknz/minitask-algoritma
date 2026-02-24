@@ -5,14 +5,12 @@ BEGIN
   IF totalPembelanjaan < 500000
   THEN
     hasilAkhir <- totalPembelanjaan
-    OUTPUT("Hasil Akhir= ", hasilAkhir)
   ELSE IF totalPembelanjaan >= 500000 AND <=1000000
   THEN
     hasilAkhir <- totalPembelanjaan * 5%
-    OUTPUT("Total Akhir= ",hasilAkhir)
   ELSE
   THEN
     hasilAkhir <- totalPembelanjaan * 10%
-    OUTPUT("Total Akhir= ",hasilAkhir)
   END IF
+  OUTPUT("Total Akhir= ",hasilAkhir)
 END
