@@ -11,6 +11,6 @@ BEGIN
   ELSE
   THEN
     hasilAkhir <- totalPembelanjaan * 10%
-  END IF
+  ENDIF
   OUTPUT("Total Akhir= ",hasilAkhir)
 END
